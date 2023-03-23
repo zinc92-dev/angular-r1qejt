@@ -1,0 +1,72 @@
+<div class="content">
+  <div class="header">
+    <div class="header_left_logo">
+      <img
+        id="header_logo"
+        src="https://dev-logic.net/dxapi/img/pnk/kiosk_hos_400.png"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- As a link -->
+<div class="card o-hidden border-0 shadow-lg card_radius my-2">
+  <div class="card-body p-0">
+    <!-- Nested Row within Card Body -->
+    <div style="margin-top: 30px;">
+      <div class="text-center">
+        <img
+          src="{{ urlimg }}"
+          class="rounded-circle"
+          alt="user"
+          style="width: auto; height: 150px;background-color: transparent;"
+        />
+        <div class="text-center">
+          <h1>{{ nameline }}</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" style="margin-top: 30px;">
+      <h1 class="h4 txt_header mb-4">Appointment</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="table-responsive">
+        <table class="table styled-table" id="datatableexample">
+          <thead>
+            <tr class="text-center">
+              <th>Date</th>
+              <th>Clinic</th>
+              <th>Doctor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let group of data" class="active-row">
+              <td>
+                {{ group.AppointDateTimeFromShow }}&nbsp;{{
+                  group.AppointDateTimeFrom | date: 'HH:mm'
+                }}
+              </td>
+              <td>{{ group.ClinicLocalName }}</td>
+              <td>{{ group.DoctorLocalName }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="text-center center_margin_btn">
+      <button
+        type="button"
+        class="btn btn-secondary btn-lg btn_logout"
+        (click)="onlogout($event)"
+      >
+        <span class="text-white"
+          ><i
+            class="fas fa-sign-out-alt fa-1x text-white fw-bold text-center"
+          ></i>
+          Log&nbsp;out</span
+        >
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+.header_left_logo {
+  display: inline-block;
+  height: 90px;
+  vertical-align: middle;
+}
+#header_logo {
+  height: 100%;
+}
+.card_radius{
+  border-radius: 25px;
+  background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
+
+}
+
+.btn_login {
+  /* background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;*/
+  width: 200px;
+  background-color: rgb(14, 200, 99);
+  border-radius: 50px;
+}
+.txt_header {
+  color: #35405e;
+}
+.center_margin_btn {
+  margin-top: 90px;
+}
+.center_margin {
+  margin-top: 100px;
+}
+.txt_header_h1 {
+  margin-top: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .rounded_circle_img {
+    width: 200px;
+  }
+  .rounded_circle_logo {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .rounded_circle_img {
+    width: 200px;
+  }
+  .rounded_circle_logo {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .rounded_circle_img {
+    width: 180px;
+  }
+  .rounded_circle_logo {
+    width: 130px;
+  }
+}
+
+
