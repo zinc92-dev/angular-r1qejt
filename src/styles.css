@@ -2,6 +2,38 @@
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+.header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #35405e;
+  border-radius: 0px 0px 25px 25px;
+}
+.header_left_logo {
+  display: inline-block;
+  height: 80px;
+  vertical-align: middle;
+}
+#header_logo {
+  height: 100%;
+}
+
+.hero-list {
+  background-color: green;
+  height: 100%;
+  overflow:auto
+}
+
+undefined {
+  flex: 1;
+}
+
+body, html, my-app {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
