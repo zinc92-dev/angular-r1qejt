@@ -25,16 +25,12 @@
   border-radius: 50px;
 }
 .btn_sign_out {
-  width: 250px;
+  width: 300px;
   border-radius: 50px;
 }
 .center_margin_btn {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-.btn_logout {
-  width: 300px;
-  border-radius: 50px;
 }
 .txt_header {
   color: #35405e;
