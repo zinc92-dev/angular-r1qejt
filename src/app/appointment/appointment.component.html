@@ -1,7 +1,7 @@
 
 <!-- As a link -->
-<div class="card o-hidden border-0 card_radius my-2">
-  <div class="card-body p-0">
+<div class="card">
+  <div class="card-body">
     <!-- Nested Row within Card Body -->
     <div style="margin-top: 30px;">
       <div class="text-center">
@@ -16,7 +16,6 @@
         </div>
       </div>
     </div>
-
     <div class="text-center" style="margin-top: 30px;">
       <h1 class="h4 txt_header mb-4">Appointment</h1>
     </div>
@@ -44,19 +43,20 @@
         </table>
       </div>
     </div>
-    <div class="text-center center_margin_btn">
-      <button
-        type="button"
-        class="btn btn-secondary btn-lg btn_logout"
-        (click)="onlogout($event)"
-      >
-        <span class="text-white"
-          ><i
-            class="fas fa-sign-out-alt fa-1x text-white fw-bold text-center"
-          ></i>
-          Log&nbsp;out</span
-        >
-      </button>
-    </div>
+    
   </div>
+</div>
+<div class="text-center center_margin_btn">
+  <button
+    type="button"
+    class="btn btn-secondary btn-lg btn_logout"
+    (click)="onlogout($event)"
+  >
+    <span class="text-white"
+      ><i
+        class="fas fa-sign-out-alt fa-1x text-white fw-bold text-center"
+      ></i>
+      Log&nbsp;out</span
+    >
+  </button>
 </div>

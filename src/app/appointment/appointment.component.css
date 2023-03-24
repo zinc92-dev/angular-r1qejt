@@ -11,11 +11,12 @@
 #header_logo {
   height: 100%;
 }
-.card_radius{
-  border-radius: 25px;
+.card{
+  border-radius: 25px;;
   background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
+  border: 1px solid #35405e;
 
-}
+  }
 .txt_header {
   color: #35405e;
   margin-bottom: 20px;
