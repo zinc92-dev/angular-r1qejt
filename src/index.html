@@ -29,20 +29,40 @@
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet" />
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark static-top header"
+      style="background-color: #35405e; border-radius: 0px 0px 45px 45px"
+    >
+      <div class="container">
+        <img
+          id="header_logo"
+          src="https://dev-logic.net/dxapi/img/pnk/kiosk_hos_400.png"
+          alt="..."
+          height="80px;"
+        />
+      </div>
+      <div class="container">
+        <a class="navbar-brand" href="#"> </a>
+        <div class="text-right" style="padding: 5px 5px 10px 10px">
+          <h1 class="h4 txt_header text-white mb-2">Smart Connect</h1>
+        </div>
+      </div>
+    </nav>
+
     <div class="content">
       <div class="header">
-        <div class="header_left_logo">
+        <div class="header_left_logo" hidden>
           <img
             id="header_logo"
             src="https://dev-logic.net/dxapi/img/pnk/kiosk_hos_400.png"
           />
         </div>
         <div class="text-right">
-        <h1 class="h4 txt_header text-white mb-2">Smart Connect</h1>
+          <h1 class="h4 txt_header text-white mb-2">Smart Connect</h1>
         </div>
       </div>
     </div>
-        <app-root></app-root>
+    <app-root></app-root>
     <!-- Custom scripts for all pages-->
   </body>
 </html>

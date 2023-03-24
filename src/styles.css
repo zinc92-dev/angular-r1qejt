@@ -24,16 +24,6 @@
   overflow:auto
 }
 
-undefined {
-  flex: 1;
-}
-
-body, html, my-app {
-  height: 100%;
-  background-color: #ffffff;
-}
-
-
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
