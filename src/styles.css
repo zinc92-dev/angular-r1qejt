@@ -5,10 +5,9 @@
 .header {
   width: 100%;
   margin: 0 auto;
-  padding: 10px 10px 10px 10px;
   background-color: #35405e;
-  border-radius: 0px 0px 25px 25px;
-
+  border-radius: 0px 0px 50px 50px;
+  padding: 5px 5px 5px 5px;
 }
 .header_left_logo {
   display: inline-block;
@@ -18,18 +17,23 @@
 #header_logo {
   height: 100%;
 }
-
 .hero-list {
   background-color: green;
   height: 100%;
-  overflow:auto
+  overflow: auto;
+}
+.card_header {
+  border-radius: 50px 50px 0px 0px;
 }
 
-body{
+body {
   background-image: url('https://cdn.jsdelivr.net/gh/Dev01-logic/angular-pnklineliff-devlogic@main/src/assets/img/19366.jpg');
-
 }
-
+.txt_header{
+  display: inline-block;
+  height: 80px;
+  vertical-align: middle;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

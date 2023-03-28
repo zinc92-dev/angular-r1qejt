@@ -43,6 +43,56 @@
 
   }
 
+  @media screen and (max-width: 1280px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1366px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1536px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1680px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 1920px) {
+    .rounded_circle_img {
+      width: 200px;
+      margin-top: 35px;
+      margin-bottom: 20px;
+    }
+  }
+
 @media only screen and (max-width: 1024px) {
   .rounded_circle_img {
     width: 200px;
